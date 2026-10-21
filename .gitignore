@@ -23,3 +23,7 @@ data/*
 !.yarn/releases
 .yarn/releases
 !.yarn/sdks
+
+# 部署环境变量含密钥，不提交
+deploy/production/docker.env
+storage/
